@@ -1,0 +1,72 @@
+<!--Will be adding hover and transition animations to buttons whenever the cursor lands on them-->
+
+<style>
+    .Sub-button{
+        background-color: rgb(164, 0, 1);
+        color: white;
+            border:none;
+            border-radius: 2px;
+        height: 36px;
+        width: 105px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;     /*this takes two values,what we want to change and for how long*/
+    }
+
+            .Sub-button:hover{      /* These changes will be applied when hovering over the button*/     
+                opacity: 0.8;       /*takes value between 0 and 1*/
+            }
+
+            .Sub-button:active{    /*these will be applied when the button is clicked*/
+                opacity: 0.5; 
+            }
+
+    .join-button{
+        background-color: white;
+        color: #1674BC;
+            border-color:#1674BC ;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 2px;
+        height: 36px;
+        width: 65px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.2s,color 0.2s;
+    }
+
+        .join-button:hover{
+            background-color: #065FD4;
+            color: white;
+        }
+        .join-button:active{
+            opacity: 0.6;
+        }
+
+    .tweet-button{
+        background-color: #1A8CD8;
+        color: white;
+            border: none;
+            border-radius: 15px;
+        height: 30px;
+        width: 74px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+           
+    }
+
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15); /*takes 4 values: horizontal vertical blur color*/ 
+    }
+
+    .tweet-button:active{
+        opacity: 0.7;
+    }
+
+</style>
+
+<button class="Sub-button">SUBSCRIBE</button>
+<button class="join-button">JOIN</button>
+<button class="tweet-button">Tweet</button>

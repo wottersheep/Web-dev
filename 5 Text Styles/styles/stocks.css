@@ -1,0 +1,28 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.rate{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.curr{
+    font-size: 15px;
+    color: gray;
+}
+.perc{
+    color: green;
+    margin-bottom: 8px;
+    
+}
+.text{
+    color: gray;
+
+}
+.num{
+    color: red;
+}

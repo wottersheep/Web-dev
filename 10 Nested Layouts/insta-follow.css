@@ -1,0 +1,54 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: gray;
+}
+.username{
+    color: black;
+}
+
+.cat{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.details{
+    display: inline-block;
+    margin-left: 10px;
+    width: 100px;
+}
+.profile-pic{
+    display: inline-block;
+    
+}
+.follow-button{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.follow{
+    background-color: #3F91E7;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.main{
+    width: 400px;
+    vertical-align: top;
+}

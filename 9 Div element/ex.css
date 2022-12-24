@@ -1,0 +1,27 @@
+.redSquare{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.greenCircle{
+    display: block;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.serv{
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+}
+button{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}

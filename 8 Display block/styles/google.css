@@ -1,0 +1,18 @@
+.gog{
+    width: 400px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    display: block;
+    
+}
+.search{
+    width: 350px;
+    margin-left: 150px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border: none;
+    box-shadow: 0px 1px 8px rgba(0,0,0,0.25);
+}
